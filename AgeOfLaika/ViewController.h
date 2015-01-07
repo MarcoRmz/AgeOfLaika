@@ -12,8 +12,10 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *dogYearsLabel;
 @property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+@property (strong, nonatomic) IBOutlet UILabel *realYearsLabel;
 
 - (IBAction)convertButton:(UIButton *)sender;
+- (IBAction)realVonvertButton:(UIButton *)sender;
 
 @end
 
