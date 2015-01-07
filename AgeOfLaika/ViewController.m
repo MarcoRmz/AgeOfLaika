@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convertButton:(UIButton *)sender {
+    float years = [self.yearsTextField.text floatValue];
+    float dogYears = years * 7;
+    
+    self.dogYearsLabel.text = [NSString stringWithFormat:@"%f", dogYears];
+}
+
 @end

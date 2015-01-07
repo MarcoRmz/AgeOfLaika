@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *dogYearsLabel;
+@property (strong, nonatomic) IBOutlet UITextField *yearsTextField;
+
+- (IBAction)convertButton:(UIButton *)sender;
 
 @end
 
