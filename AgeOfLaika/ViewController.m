@@ -31,7 +31,7 @@
     self.dogYearsLabel.text = [NSString stringWithFormat:@"%i", dogYears];
 }
 
-- (IBAction)realVonvertButton:(UIButton *)sender {
+- (IBAction)realConvertButton:(UIButton *)sender {
     int humanYears = [self.yearsTextField.text intValue];
     int dogYears;
     
